@@ -1,14 +1,11 @@
 #include <stdio.h>
 int main(void) {
 	// ここにコードを挿入
-	printf("%d\t\t", 125);
-	printf("%d\t\t", 5);
-	printf("%d\t\n", 35);
-	printf("%f\t", 4.336112);
-	printf("%f\t", 0.108936);
-	printf("%f\t\n", 2.875689);
-	printf("%c\t\t", 'A');
-	printf("%c\t\t", 'B');
-	printf("%c\t\n", 'C');
+	int n;
+	double a, b;
+	n = 10;
+	a = 1.25;
+	b = 2.5;
+	printf("n=%d a=%f b=%f\n", n, a, b);
 	return 0;
 }
